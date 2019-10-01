@@ -499,6 +499,9 @@ footer{
         margin-left: 200px;
         margin-top: 190px;
     }
+    .acc h4:after {
+        display: none;
+    }
     #search {
         position: absolute;
         width: 480px;
@@ -555,6 +558,9 @@ footer{
         left: 15px;
         width: 380px;
     }
+    h4{
+        font-size: 20px;
+    }
     #ht-blue{
         padding: 130px;
     }
@@ -566,8 +572,11 @@ footer{
         top: 140px;
         font-size: 20px;
     }
-    h4{
+    .acc h4{
         font-size: 20px;
+    }
+    .acc h4:after {
+        display: none;
     }
     #electQty {
         display: flex;
@@ -636,6 +645,9 @@ footer{
     }
     #ht-blue{
         padding: 100px;
+    }
+    .a h4{
+        font-size: 20px;
     }
     #search {
         position: absolute;
