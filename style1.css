@@ -98,7 +98,7 @@ nav{
     list-style:none; 
     font-family: 'Gilroy SemiBold';
     font-weight: 300;
-    font-size: 24px;
+    font-size: 16px;
     display: inline-block;
     position:relative;	
     text-align:left;
@@ -197,7 +197,7 @@ color: #000000;
     padding: 30px 0 20px;
     text-align: left; 
     width: 100%;
-    margin-top: 26%;
+    margin-top: 12%;
 }
 .acc h4{
     background-color: #011B33;
@@ -336,7 +336,7 @@ footer{
     position: absolute;
     width: 336px;
     height: 28px;
-    left: 552px;
+    left: 502px;
     margin-top: 150px;
     font-family: Segoe UI;
     font-size: 18px;
@@ -628,7 +628,7 @@ footer{
         margin-left: 20px;
     }
     .navigation{
-        width: 40%;
+        width: 30%;
         position: static;
     }
    
@@ -636,7 +636,7 @@ footer{
 }
 @media only screen and (max-width: 380px) {
     h1{
-        left: 15px;
+        left: 25px;
         font-size: 28px;
     }
     h3{
@@ -703,10 +703,14 @@ footer{
         margin-left: 12px;
     }
     .navigation{
-        width: 40%;
+        width: 30%;
         position: static;
     }
-   
+   .navigation ul{
+       font-size: 12px;
+       padding-top: 60px;
+       padding: 15px;
+   }
 
 }
 @media only screen and (max-width: 320px) {

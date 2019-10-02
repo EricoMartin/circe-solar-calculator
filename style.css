@@ -100,7 +100,7 @@ nav{
     list-style:none; 
     font-family: 'Gilroy SemiBold';
     font-weight: 300;
-    font-size: 24px;
+    font-size: 16px;
     display: inline-block;
     position:relative;	
     text-align:left;
@@ -403,10 +403,14 @@ footer{
         margin-left: 12px;
     }
     .navigation{
-        width: 40%;
+        width: 30%;
         position: static;
     }
-   
+    .navigation ul{
+        font-size: 12px;
+        padding-top: 60px;
+        padding: 15px;
+    }
 
 }
 @media only screen and (max-width: 320px) {
