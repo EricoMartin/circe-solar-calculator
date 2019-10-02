@@ -1,62 +1,16 @@
 
-@import url('//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold');
+@import url('https://db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold');
 
-@import url('//db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium');
+@import url('https://db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium');
 
-@import url('//db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold');
+@import url('https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold');
 
-@import url('//db.onlinewebfonts.com/c/67b3eff247faac84b33ae4640cb86e30?family=Gilroy-SemiBoldItalic');
+@import url('https://db.onlinewebfonts.com/c/67b3eff247faac84b33ae4640cb86e30?family=Gilroy-SemiBoldItalic');
 * {
     box-sizing: border-box;
 }
 
 /*Fonts used on Figma design */
-
-@font-face {
-    font-family: 'Ginger Peachy NF';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/GINGP___.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Gilroy-Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-Bold.woff') format('woff');
-}
-    
-    
-@font-face {
-    font-family: 'Gilroy-Heavy';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-Heavy.woff') format('woff');
-}
-    
-    
-@font-face {
-    font-family: 'Gilroy-Light';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-Light.woff') format('woff');
-}
-    
-    
-@font-face {
-    font-family: 'Gilroy-Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-Medium.woff') format('woff');
-}
-    
-    
-@font-face {
-    font-family: 'Gilroy-Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: url('./fonts/Gilroy-Regular.woff') format('woff');
-}
 
 body {
     font-family: 'Gilroy-Regular', sans-serif;
@@ -215,6 +169,7 @@ a{
 
 h1{
     font-family: 'Gilroy ExtraBold';
+    font-style: normal;
     font-size: 40px;
     line-height: 59px;
     font-weight: 1000;
@@ -224,13 +179,6 @@ h3 {
     font-size: 24px;
     font-family: 'Gilroy-Medium';
 }
-
-h1{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 40px;
-}
-
 .alert {
     padding: 20px;
     background-color: #192438;

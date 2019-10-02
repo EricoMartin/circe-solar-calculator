@@ -142,11 +142,7 @@ nav{
     font-size:30px;
 }
 h1{
-    position: absolute;
-    width: 799px;
     height: 74px;
-    left: 220px;
-    top: 50px;
     text-align: center;
     font-family: 'Gilroy ExtraBold';
     font-size: 40px;
@@ -548,6 +544,11 @@ footer{
         margin-left: 240px;
     }
 
+}
+@media only screen and (max-width: 578px){
+    h1 {
+        left: 125px;
+    }
 }
 @media only screen and (max-width: 430px) {
     h1{
