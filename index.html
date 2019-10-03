@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1.0">
         <meta http-equiv="X_UA_compatible" content="ie-edge">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
         <title>Circe Solar Calculator</title>
     </head>
     <div id="page">
@@ -40,6 +40,6 @@
                         &copy; 2019 Circe HNG. All rights reserved
                 </footer>
               </div>
-                <script type="text/javascript" src="/js/script.js"></script>
+                <script type="text/javascript" src="./js/script.js"></script>
         </body>
 </html>
