@@ -21,7 +21,6 @@
               <div class="logo">
                 <img src=""/>
               </div>
-              
               <ul class="menulist">
                   <li><a class="menuitems" href="index.html">Home</a></li>
                 <li><a class="menuitems" href="calculate.html">Calculator</a></li>		
@@ -29,13 +28,10 @@
               </ul>			
               </div>
               <div id="drop"></div>
-    
             <h1> Calculate your Solar Requirement</h1>
-
             <h3>Circe is an app that allows you calculate 
                 how much power is required to run your home</h3>
                 <button id="but"><div id="calc"><a href="calculate.html">Calculate <label id="now">Now</label></a></div></button>
-                
                 <footer>
                         &copy; 2019 Circe HNG. All rights reserved
                 </footer>
