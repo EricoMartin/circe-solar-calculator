@@ -1,4 +1,4 @@
-@import url('//db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold');
+@import url('https://db.onlinewebfonts.com/c/00d5a78493aed4b11e2584ad7cceee49?family=Gilroy+ExtraBold');
 
 @import url('//db.onlinewebfonts.com/c/040a78b437acd0433612f92e61d04a1b?family=Gilroy-Medium');
 
@@ -13,6 +13,10 @@ body{
     overflow-x: hidden;
     transition: background-color .5s;
     max-width: 100%;
+}
+#fq{
+    text-decoration: underline;
+    color: sandybrown;
 }
 nav{
     position: absolute;
@@ -206,7 +210,7 @@ footer{
     }
     nav {
         height: 80px;
-        top: 15px;
+        top: 30px;
     }
     h3{
         font-family: 'Gilroy-Medium';
@@ -300,7 +304,7 @@ footer{
         width: 303px;
         height: 50px;
         /* top: 1000px; */
-        margin-top: 280px;
+        margin-top: 40px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
@@ -335,7 +339,7 @@ footer{
         height: 50px;
         margin-left: 10px;
         /* top: 1000px; */
-        margin-top: 280px;
+        margin-top: 30px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
@@ -374,7 +378,7 @@ footer{
         height: 50px;
         margin-left: 10px;
         /* top: 1000px; */
-        margin-top: 50px;
+        margin-top: 20px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
