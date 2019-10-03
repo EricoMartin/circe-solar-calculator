@@ -193,7 +193,7 @@ color: #000000;
     padding: 30px 0 20px;
     text-align: left; 
     width: 100%;
-    margin-top: 12%;
+    margin-top: 4%;
 }
 .acc h4{
     background-color: #011B33;
@@ -418,6 +418,9 @@ footer{
         font-family: 'Gilroy ExtraBold';
         color: #FFF;
     }
+    .faq-content{
+        margin-top: 10%;
+    }
     #add {
         position: static;
         width: 180px;
@@ -427,7 +430,6 @@ footer{
     #calc {
         position: absolute;
         left: 420px;
-        /* width: 404px; */
         height: 76px;
         font-size: 36px;
         line-height: 5px;
@@ -484,7 +486,7 @@ footer{
 }
 @media only screen and (max-width: 780px) {
     h1{
-        left: 225px;
+        left: 185px;
     }
     h3{
         left: 225px;
@@ -504,6 +506,9 @@ footer{
         height: 48px;
         left: 145px;
         top: 160px;
+    }
+    .faq-content{
+        margin-top: 12%;
     }
     #hoursPower {
         display: flex;
