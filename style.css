@@ -12,7 +12,7 @@ body{
     overflow-y:scroll;
     overflow-x: hidden;
     transition: background-color .5s;
-    max-width: 90%;
+    max-width: 100%;
 }
 nav{
     position: absolute;
@@ -144,32 +144,20 @@ nav{
     font-size:30px;
 }
 h1{
-    position: absolute;
-    width: 799px;
-    height: 74px;
-    left: 180px;
-    top: 80px;
     text-align: center;
     font-family: 'Gilroy ExtraBold';
     font-size: 40px;
-    line-height: 59px;
+    /*line-height: 59px;*/
 }
 h3{
-    position: absolute;
-    width: 842px;
-    height: 116px;
-    left: 170px;
-    top: 238px;
-
+    padding: 5%;
     font-family: 'Gilroy-Medium';
     font-size: 33px;
     line-height: 39px;
 }
 #but{
-    position: absolute;
     width: 447px;
     height: 80px;
-    left: 380px;
     top: 400px;
     background: #F9FCFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -183,9 +171,6 @@ a{
     color: #000000;
 }
 #calc{
-    position: absolute;
-    width: 404px;
-    height: 76px;
     font-size: 52px;
     line-height: 5px;
     color: #000000;
@@ -194,11 +179,8 @@ a{
     
 }
 footer{
-    position: absolute;
-    width: 336px;
-    height: 28px;
-    left: 412px;
-    top: 546px;
+    margin: 28px;
+    
     font-family: Segoe UI;
     font-size: 18px;
     line-height: 24px;
@@ -214,15 +196,9 @@ footer{
         text-align: center;
         overflow-y:scroll;
         transition: background-color .5s;
-        position: relative;
         max-width: 1024px;
     }
     h1 {
-        position: absolute;
-        width: 330px;
-        height: 40px;
-        left: 330px;
-        top: 40px;
         padding: 8px;
         margin-top: 20px;
         font-size: 40px;
@@ -233,22 +209,14 @@ footer{
         top: 15px;
     }
     h3{
-        position: absolute;
-        width: 360px;
-        height: 40px;
-        left: 330px;
-        top: 178px;
         font-family: 'Gilroy-Medium';
         font-size: 20px;
         line-height: 29px;
     }
     #but {
-        position: static;
         width: 303px;
         height: 80px;
         margin-right: 0px;
-        /* top: 1000px; */
-        margin-top: 280px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
@@ -257,21 +225,12 @@ footer{
     }
 
     #calc {
-        position: absolute;
-        left: 300px;
-        /* width: 404px; */
-        height: 76px;
         font-size: 36px;
-        line-height: 5px;
         color: #000000;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: 'Gilroy ExtraBold';
     }
-    footer{
-        position: static;
-        margin-left: 310px;
-        margin-top: 100px;
-    }
+   
     #page{
         overflow-x: hidden;
     }
@@ -279,50 +238,24 @@ footer{
 }
 @media only screen and (max-width: 964px) {
     #but {
-        position: static;
-        width: 303px;
         height: 80px;
-        margin-left: 80px;
-        /* top: 1000px; */
-        margin-top: 280px;
-        background: #F9FCFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 16px;
-        font-family: 'Gilroy ExtraBold';
-        color: #000000;
     }
 
 }
-@media only screen and (max-width: 907px) {
-    #but {
-        position: static;
-        width: 303px;
-        height: 80px;
-        margin-left: 140px;
-        /* top: 1000px; */
-        margin-top: 280px;
-        background: #F9FCFF;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 16px;
-        font-family: 'Gilroy ExtraBold';
-        color: #000000;
-    }
 
-}
 @media only screen and (max-width: 780px) {
     h1{
+        padding-top: 4%;
         left: 225px;
     }
     h3{
         left: 225px;
     }
     #but {
-        position: static;
         width: 303px;
         height: 80px;
-        margin-left: 70px;
         /* top: 1000px; */
-        margin-top: 280px;
+        margin-top: 80px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
@@ -330,11 +263,9 @@ footer{
         color: #000000;
     }
     #calc{
-        left: 205px;
+        font-size: 35px;
     }
-    footer{
-        margin-left: 240px;
-    }
+    
 
 }
 @media only screen and (max-width: 578px){
@@ -348,23 +279,13 @@ footer{
     h3{
         left: 105px;
     }
-    a{
-        margin-left: -260px;
-    }
+    
     .navigation{
         left: 75%;
         width: auto;
         top: 25px;
     }
-    #calc{
-        left: 200px;
-    }
-    #but{
-        margin-left: -8px;
-    }
-    footer{
-        margin-left: 120px;
-    }
+    
 }
 @media only screen and (max-width: 430px) {
     h1{
@@ -376,10 +297,8 @@ footer{
         width: 380px;
     }
     #but {
-        position: static;
         width: 303px;
         height: 50px;
-        margin-left: 10px;
         /* top: 1000px; */
         margin-top: 280px;
         background: #F9FCFF;
@@ -388,18 +307,12 @@ footer{
         font-family: 'Gilroy ExtraBold';
         color: #000000;
     }
-    a{
-        margin-right: -18px;
-    }
+    
     nav{
         left: 45px;
     }
-    #calc{
-        left: 0px;
-    }
-    footer{
-        margin-left: 20px;
-    }
+    
+    
     .navigation{
         width: 40%;
         position: static;
@@ -429,14 +342,8 @@ footer{
         font-family: 'Gilroy ExtraBold';
         color: #000000;
     }
-    a {
-        margin-right: 36px;
-    }
     nav{
         left: 35px;
-    }
-    footer{
-        margin-left: 12px;
     }
     .navigation{
         width: 30%;
@@ -461,16 +368,13 @@ footer{
         left: 15px;
         width: 280px;
     }
-    a {
-        margin-left: 30px;
-    }
     #but {
         position: static;
         width: 150px;
         height: 50px;
         margin-left: 10px;
         /* top: 1000px; */
-        margin-top: 280px;
+        margin-top: 50px;
         background: #F9FCFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 16px;
@@ -481,13 +385,10 @@ footer{
         left: -1px;
     }
     #calc{
-        margin-left: -50px;
-        margin-right: 10px;
         font-size: 28px;
         font-weight: 600;
     }
     footer{
-        margin-left: -20px;
         font-size: 12px;
     }
     .navigation{
