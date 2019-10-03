@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content ="width=device-width, initial-scale=1.0">
         <meta http-equiv="X_UA_compatible" content="ie-edge">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <title>Circe Solar Calculator</title>
     </head>
     <div id="page">
@@ -23,6 +23,7 @@
               </div>
               
               <ul class="menulist">
+                  <li><a class="menuitems" href="index.html">Home</a></li>
                 <li><a class="menuitems" href="calculate.html">Calculator</a></li>		
                 <li><a class="menuitems" href="faq.html">FAQs</a></li>
               </ul>			
@@ -33,12 +34,12 @@
 
             <h3>Circe is an app that allows you calculate 
                 how much power is required to run your home</h3>
-                <button id="but"><div id="calc"><a href="calculate.html"> Calculate <label id="now">Now</label></a></div></button>
+                <button id="but"><div id="calc"><a href="calculate.html">Calculate <label id="now">Now</label></a></div></button>
                 
                 <footer>
                         &copy; 2019 Circe HNG. All rights reserved
                 </footer>
               </div>
-                <script type="text/javascript" src="script.js"></script>
+                <script type="text/javascript" src="/js/script.js"></script>
         </body>
 </html>
